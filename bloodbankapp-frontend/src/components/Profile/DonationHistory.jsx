@@ -1,7 +1,7 @@
 import React from 'react';
 
 const DonationHistory = () => (
-  <div>DonationHistory</div>
+  <div>Donation History</div>
 );
 
 export default DonationHistory;

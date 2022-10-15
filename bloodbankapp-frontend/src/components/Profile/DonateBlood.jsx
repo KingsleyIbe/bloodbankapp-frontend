@@ -1,7 +1,7 @@
 import React from 'react';
 
 const DonateBlood = () => (
-  <div>DonateBlood</div>
+  <div>Donate Blood</div>
 );
 
 export default DonateBlood;

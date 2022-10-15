@@ -53,7 +53,7 @@ const SideBar = () => {
     <div className="sidebar">
       <header className="flex fixed z-10">
         <nav
-          className={`${open ? 'w-60' : 'w-30'} 
+          className={`${open ? 'w-60' : 'w-0'} 
         h-screen p-5 pt-8 bg-[#1B1C22] duration-300 z-1 relative`}
         >
           <FontAwesomeIcon
@@ -68,7 +68,6 @@ const SideBar = () => {
             <li>
               <button type="button" onClick={openDonate} className="flex gap-5 items-center">
                 <FontAwesomeIcon icon={faAngleDoubleLeft} />
-                {' '}
                 <p>Donate Blood</p>
               </button>
             </li>
