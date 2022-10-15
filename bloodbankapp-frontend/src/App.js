@@ -5,7 +5,7 @@ import RouterPage from './routerPage';
 function App() {
   return (
     <div className="App">
-        <RouterPage />
+      <RouterPage />
     </div>
   );
 }
