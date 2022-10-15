@@ -1,4 +1,4 @@
-import siteLogo from '../../assets/images/common/logoNew.png';
+import siteLogo from '../../assets/images/siteLogo.png';
 
 const NavItems = [
   {
@@ -11,8 +11,6 @@ const NavItems = [
       '/dashboard',
       '/login',
       '/register',
-      '/blogs',
-      '/contact-us',
     ],
     title: [
       'Blood Bank App',
@@ -20,7 +18,7 @@ const NavItems = [
       'Patient',
       'Profile',
       'Login',
-      'Signup',
+      'Register',
     ],
   },
 ];

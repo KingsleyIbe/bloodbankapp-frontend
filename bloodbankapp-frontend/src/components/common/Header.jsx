@@ -11,12 +11,12 @@ const Header = () => {
 
   return (
     <header className="">
-      <div className="bg-[#f00] p-10">
-        <nav className="p-5">
+      <div className="bg-[#f00] p-5">
+        <nav className="">
           {data.map((navItem) => (
             <div key={uuidv4()} className="flex gap-5 items-center relative">
               <Link to={navItem.link[0]} className="flex gap-2 items-center">
-                <img src={navItem.logo} alt={navItem.alt} />
+                <img src={navItem.logo} alt={navItem.alt} className="max-w-[50px]" />
                 <h4>{navItem.title[0]}</h4>
               </Link>
               <ul className="flex gap-5 items-center w-[67%] m-auto">
@@ -25,8 +25,6 @@ const Header = () => {
                 <li className="hover:text-[#FFC01D]"><NavLink to={navItem.link[3]} style={navLinksStyles}>{navItem.title[3]}</NavLink></li>
                 <li className="hover:text-[#FFC01D]"><NavLink to={navItem.link[4]} style={navLinksStyles}>{navItem.title[4]}</NavLink></li>
                 <li className="hover:text-[#FFC01D]"><NavLink to={navItem.link[5]} style={navLinksStyles}>{navItem.title[5]}</NavLink></li>
-                <li className="hover:text-[#FFC01D]"><NavLink to={navItem.link[6]} style={navLinksStyles}>{navItem.title[6]}</NavLink></li>
-                <li className="hover:text-[#FFC01D]"><NavLink to={navItem.link[7]} style={navLinksStyles}>{navItem.title[7]}</NavLink></li>
               </ul>
 
             </div>
