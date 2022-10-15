@@ -19,7 +19,7 @@ const Header = () => {
                 <img src={navItem.logo} alt={navItem.alt} className="max-w-[50px]" />
                 <h4>{navItem.title[0]}</h4>
               </Link>
-              <ul className="flex gap-5 items-center w-[67%] m-auto">
+              <ul className="flex gap-5 items-center absolute right-0">
                 <li className="hover:text-[#FFC01D]"><NavLink to={navItem.link[1]} style={navLinksStyles}>{navItem.title[1]}</NavLink></li>
                 <li className="hover:text-[#FFC01D]"><NavLink to={navItem.link[2]} style={navLinksStyles}>{navItem.title[2]}</NavLink></li>
                 <li className="hover:text-[#FFC01D]"><NavLink to={navItem.link[3]} style={navLinksStyles}>{navItem.title[3]}</NavLink></li>
