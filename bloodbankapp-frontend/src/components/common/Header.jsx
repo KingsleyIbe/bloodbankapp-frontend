@@ -6,12 +6,12 @@ const Header = () => {
   const data = NavItems;
 
   const navLinksStyles = ({ isActive }) => ({
-    borderBottom: isActive ? '4px solid #FFC01D' : 'none',
+    borderBottom: isActive ? '4px solid #500' : 'none',
   });
 
   return (
-    <header className="">
-      <div className="bg-[#f00] p-5">
+    <header className="text-[#fff]">
+      <div className="bg-[#A00] p-5">
         <nav className="">
           {data.map((navItem) => (
             <div key={uuidv4()} className="flex gap-5 items-center relative">

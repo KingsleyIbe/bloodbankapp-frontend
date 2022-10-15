@@ -58,7 +58,7 @@ const SideBar = () => {
         >
           <FontAwesomeIcon
             icon={faAngleDoubleLeft}
-            className={`bg-[#14142B] rounded-full -right-3 border-dark-purple 
+            className={`bg-[#14142B] text-[#fff] rounded-full -right-3 border-dark-purple 
             absolute cursor-pointer top-9 w-7 border-2 ${
               !open && 'rotate-[180]'
             }`}
@@ -72,14 +72,14 @@ const SideBar = () => {
                 <p>Donate Blood</p>
               </button>
             </li>
-            <li>
+            <li className="mt-5">
               <button type="button" onClick={openBloodRequest} className="flex gap-5 items-center">
                 <FontAwesomeIcon icon={faAngleDoubleLeft} />
                 {' '}
                 <p>Blood Request</p>
               </button>
             </li>
-            <li>
+            <li className="my-5">
               <button type="button" onClick={openDonationHistory} className="flex gap-5 items-center">
                 <FontAwesomeIcon icon={faAngleDoubleLeft} />
                 {' '}
