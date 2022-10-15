@@ -1,8 +1,9 @@
 import React from 'react';
+import Home from '../../components/Home';
 
 const LandingPage = () => (
   <>
-    <h1>Coming up</h1>
+    <h1><Home /></h1>
   </>
 );
 
