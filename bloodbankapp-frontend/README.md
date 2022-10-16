@@ -46,9 +46,8 @@ To get a local copy up and running follow these simple steps.
  
 - Run `npm install`
  
-- Make sure to run our [Rails backend application](https://github.com/Anny85-code/bloodbankapp-backend) first before running the React app so that it takes up the `port 3000`. This is very important as our rails API endpoint must run on `port 3000` for the API to work.
-- Once the backend is running on `port 3000` then start the react app and you will be prompted to run the server on another port like `port 3001`. You will receive a message in your terminal like this `Would you like to run the app on another port instead? » (Y/n)`. Please enter `y` so that the react app will start on `port 3001`.
- 
+- [Backend Application Endpoint](https://bloodbankapihackfest.herokuapp.com)
+
 # Authors
  
 👤 **Kingsley Ibe**
