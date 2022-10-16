@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 import AuthMain from '../../components/auth';
 import SubmitButton from '../../components/buttons';
+import Header from '../../components/common/Header';
 import SelectField from '../../components/selectField';
 import TextField from '../../components/textField';
 import roles from '../../utils/enums';
@@ -32,7 +33,7 @@ const Register = () => {
 
   return (
     <>
-
+      <Header />
       <AuthMain>
         <div>
           <h2 className="mt-6 text-left text-3xl tracking-tight font-bold text-regal-blue">
