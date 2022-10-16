@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/bloodbankapp-frontend/static/css/main.c77f7588.css",
+    "main.js": "/bloodbankapp-frontend/static/js/main.972a7b00.js",
+    "static/js/787.99a484e9.chunk.js": "/bloodbankapp-frontend/static/js/787.99a484e9.chunk.js",
+    "static/media/pageCover.jpg": "/bloodbankapp-frontend/static/media/pageCover.098f0ae2fdefa35e4905.jpg",
+    "service-worker.js": "/bloodbankapp-frontend/service-worker.js",
+    "static/media/authpics.jpg": "/bloodbankapp-frontend/static/media/authpics.5d9e09641aa7f2edc2b5.jpg",
+    "static/media/siteLogo.png": "/bloodbankapp-frontend/static/media/siteLogo.ad5ab15f6693b0aab758.png",
+    "index.html": "/bloodbankapp-frontend/index.html",
+    "main.c77f7588.css.map": "/bloodbankapp-frontend/static/css/main.c77f7588.css.map",
+    "main.972a7b00.js.map": "/bloodbankapp-frontend/static/js/main.972a7b00.js.map",
+    "787.99a484e9.chunk.js.map": "/bloodbankapp-frontend/static/js/787.99a484e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c77f7588.css",
+    "static/js/main.972a7b00.js"
+  ]
+}
