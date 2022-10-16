@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Home from '../../components/Home';
 
-export default function LandingPage() {
-  return (
-    <>
-      <h1>Coming up</h1>
-    </>
-  )
-}
+const LandingPage = () => (
+  <>
+    <h1><Home /></h1>
+  </>
+);
+
+export default LandingPage;

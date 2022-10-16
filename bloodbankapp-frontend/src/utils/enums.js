@@ -1,10 +1,12 @@
-export const roles = [
-    {
-        name:"Patient",
-        id:"patient"
-    },
-    {
-        name:"Donor",
-        id:"donor"
-    }
-]
+const roles = [
+  {
+    name: 'Patient',
+    id: 'patient',
+  },
+  {
+    name: 'Donor',
+    id: 'donor',
+  },
+];
+
+export default roles;
